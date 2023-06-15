@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.box-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 6rem;
+  height: 4rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.hu, .de, .fr, .en {
+  padding: 0rem;
+  margin: 0rem;
+  border: none;
+  height: 1.5rem;
+  width: 2.5rem;
+}
+
+.container {
+ background-color: tan;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+.fej {
+  padding: 1rem;
+}
+
+.fejlec {
+  text-align: center;
+  background-color: tan;
+}
+
+h1 {
+
+  color: white;
+  padding: 27px;
+}
+
+
+
+
+.adat {
+  background-color: tan;
+  padding: 2rem;
+}
+
+.programtable-adat {
+  background-color: tan(16, 81, 90, 0.85);
+  padding: 2rem;
+}
+
+.hamburger-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  background-color: tan;
+}
+
+.hamburger {
+  background-color: tan;
+  padding: 1rem;
+  display: none;
+}
+
+.hamburger img{
+  width: 2rem;
+}
+
+.dropdown-content {
+  display: flex;
+  gap: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #86563c;
+  border-radius: 30px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .dropdown-content {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-item {
+    display: block;
+  }
+
+  .navbar-hide {
+    display: none;
+  }
+
+  .prev {
+    order: 1;
+  }
+
+  .next {
+    order: 2;
+  }
+
+}
+
+.koszonto {
+
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size:xx-large;
+  padding: 3rem;
+  padding-bottom: 0;
+  font-weight: bold;
+}
+
+.szoveg {
+
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding: 3rem;
+
+}
+
+.szoveg2 {
+
+  color: white;
+  text-align: left;
+  font-size: larger;
+  padding: 3rem;
+
+}
+
+.szoveg3 {
+
+  color: white;
+  text-align: left;
+  font-size: larger;
+  padding: 3rem;
+}
+
+.web {
+
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding: 3rem;
+
+}
+
+.web2 {
+
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px;
+
+}
+
+
+
+table,
+th,
+td {
+  border: 2px solid black;
+  background-color: #eee6d8;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  border-collapse: collapse;
+}
+
+
+th {
+  background-color: #8a6258;
+  color: white;
+}
+
+.kozepszoveg {
+  
+  text-align: center;
+}
+
+.kozepszoveg2 {
+
+  text-align: left;
+  padding: 5px;
+}
+
+.date-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-for-slides {
+  text-align: center;
+  font-size: large;
+  background-color: rgb(5, 5, 54);
+  color: white;
+  font-weight: bold;
+  width: 9rem;
+  border-radius: 7px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.date {
+  text-align: center;
+  width: 15rem;
+  font-size: large;
+  background-color: rgb(5, 5, 54);
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.date2 {
+  font-size: large;
+  text-align: center;
+  width: 15rem;
+  display: inline-block;
+  background-color: rgb(5, 5, 54);
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.date3 {
+  font-size: large;
+  text-align: center;
+  width: 15rem;
+  display: inline-block;
+  background-color: rgb(5, 5, 54);
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.date4 {
+  font-size: large;
+  text-align: center;
+  width: 15rem;
+  display: inline-block;
+  background-color: rgb(5, 5, 54);
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.date5 {
+  font-size: large;
+  text-align: center;
+  width: 15rem;
+  display: inline-block;
+  background-color: rgb(5, 5, 54);
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.date6 {
+  font-size: large;
+  text-align: center;
+  width: 15rem;
+  display: inline-block;
+  background-color: rgb(5, 5, 54);
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+
+.eredmeny {
+  font-size: large;
+  text-align: center;
+  color: white;
+  background-color: #8a6258;
+  border-radius: 7px;
+
+}
+
+.map {
+  width: 100%;
+  height: 400px;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar {
+  background-color: #8a6258;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+
+.navbar a:hover {
+  background-color: tan;
+}
+
+
+.display-content {
+  display: none;
+}
+
+.gal {
+  width: 100%;
+  height: 200px;
+
+}
+
+
+.slideshow {
+  max-width: 70rem;
+  max-height: 30rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.mySlides {
+  overflow: hidden;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .7
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.pictures-in-slides {
+  align-self: flex-start;
+  width: 30rem;
+  height: 30rem;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  height: fit-content;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.row {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content:flex-start !important;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Six columns side by side */
+
+.demo {
+  width: 15rem;
+  height: 10rem;
+  opacity: 0.6;
+}
+
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.idopont {
+  padding-top: 2rem;
+
+}
+
+.programtabla {
+
+  text-align: left;
+  background-color: rgb(16, 81, 90, 0.0);
+  border: none;
+  font: bold;
+  font-size: 20px;
+  padding: 2rem;
+
+}
+
+.programtabla td {
+  padding: 4rem;
+
+}
